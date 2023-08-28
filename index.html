@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    <title>Mi Primera Web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Beat</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Keta</td>
+                <td>19.90$</td>
+            </tr>
+            <tr>
+                <td>Porro de tamaño monumental</td>
+                <td>29,90$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 49,80$</td>
+        </tfoot>
+    </table>
+
+    <!-- ul es lista no ordenada / ol es lista ordenada -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">Sub Elemento 1</li>
+                <li style="list-style-type: lower-alpha;">Sub Elemento 2</li>
+                <li style="list-style-type: lower-alpha;">Sub Elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input value="valentin" type="text" id="nombre" name="nombre" placeholder="Nombre">
+        <br> <br>
+        <label for="apellido">Apellido</label>        
+        <input value="bonacci" type="text" id="apellido" name="apellido" placeholder="Apellido">
+        <br> <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email">
+        <br> <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Password">
+        <br> <br>
+        <lable for="archivo">Archivo</lable>
+        <input type="file" id="archivo" name="archivo">
+        <br> <br>
+        <textarea id="comentario" name="comentario" placeholder="Ingrese Comentario" cols="30" rows="5">este es un valor por defecto</textarea>
+        <br> <br>
+        <button type="button""><!-- <img src="img/pensando.png" --> Tipo boton</button>
+        <button type="reset"">Tipo reset</button>
+        <button type="submit"">Tipo submit</button>
+        <!-- <input type="submit" value="Enviar"> -->
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading</h6>
+    <p>El nenito de mamita esta muy feliz.</p>
+    <p>El nenito de mamita esta muy triste.</p>
+    <hr>
+    <h2>El nenito de papito</h2>
+    <p>El nenito de papito esta muy feliz.</p>
+    <p>
+        Este texto es <span style="Color:blue">mucho mas largo</span> 
+        y es para mostrar <br>
+        la etiqueta de span!
+    </p>
+    <!-- comentario -->
+    <a target="_blank" href="https://www.google.com">Ir a google</a>
+    <br> <br>
+    <img src="img/pensando.png" width="500" height="200"/>
+    
+</body>
+</html>
